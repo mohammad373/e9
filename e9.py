@@ -40,8 +40,8 @@ def __target__():
             sys.exit()
         except:
             pass
-    #if not "http" in target or not "https" in target:
-    #   target = "http://" + target
+    if not "http" in target or not "https" in target:
+       target = "http://" + target
     ip = socket.gethostbyname(target)
     r = requests.get(target)
     coun = 1

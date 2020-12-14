@@ -44,7 +44,7 @@ def __target__():
     #   target = "http://" + target
     ip = socket.gethostbyname(target)
     r = requests.get(target)
-    coun = 
+    coun = 1
     time = datetime.datetime.now()
     while True:
         coun = 1

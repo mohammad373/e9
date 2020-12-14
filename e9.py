@@ -31,7 +31,7 @@ def __target__():
             //
             /""")
     time.sleep(0.9)
-    target = input(Fore.RED + "\n[" + Fore.BLUE + "!" + Fore.RED = "]" + Fore.BLUE + " ~ " + Fore.YELLOW + "Pleass Enter Your Address Target" + Fore.GREEEN + " ==>  ")
+    target = input(Fore.RED + "\n[" + Fore.BLUE + "!" + Fore.RED + "]" + Fore.BLUE + " ~ " + Fore.YELLOW + "Pleass Enter Your Address Target" + Fore.GREEEN + " ==>  ")
     if  target == "" or None:
         try:
             time.sleep(1)

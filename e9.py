@@ -30,7 +30,7 @@ def __target__():
                     ///
                     //
                     /""")
-    time.sleep(1)
+   
     target = input(Fore.RED + "\n[" + Fore.BLUE + "!" + Fore.RED + "]" + Fore.BLUE + " ~ " + Fore.YELLOW + "Pleass Enter Your Address Target" + Fore.GREEEN + " ==>  ")
     if  target == "" or None:
         try:

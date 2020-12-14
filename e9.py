@@ -10,7 +10,7 @@ from colorama import Fore
 
 def __target__():
     os.system("clear")
-    print(Fore.GREY + """
+    print(Fore.YELLOW + """
                     ///////////////////
                     //////////////////
                     /////////////////
